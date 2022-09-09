@@ -1,0 +1,11 @@
+def senha(chave):
+    correta = "Senha123@"
+    if (chave != correta):
+        print ("Sua senha esta incorreta.")
+    else:
+            print("Você esta logado")
+
+senha_usuario = input("Digite a senha: ")
+senha(senha_usuario) 
+        
+        
