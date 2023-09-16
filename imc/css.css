@@ -1,0 +1,63 @@
+/* Estilo geral da calculadora */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Estilo das imagens */
+.header {
+    width: 20px; /* Defina o tamanho desejado para o ícone */
+    height: 20px;
+    margin-right: 10px; /* Espaço entre o ícone e a imagem centralizada */
+}
+
+.aside {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+/* Estilo dos campos de entrada e rótulos */
+div {
+    margin: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo do botão de calcular */
+#calcular {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#calcular:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo do resultado */
+#resultado {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+}
